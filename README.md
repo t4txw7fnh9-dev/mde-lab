@@ -22,4 +22,13 @@ Set up a test environment to evaluate MDE detection, onboarding, and alert inves
 
 ```powershell
 Get-MpComputerStatus | Select AntivirusEnabled, RealTimeProtectionEnabled
+```
 
+## 🚧 Status
+- Environment preparation: In progress
+- EDR onboarding: Not started
+
+## 📌 ToDo
+- Create test VM
+- Register device to Entra ID
+- Enable MDE sensor
